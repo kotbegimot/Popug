@@ -35,6 +35,6 @@
 | Account.Logined (Admin) | Show amount of developers with negative balance per day | Digit | - |
 
 ## Data model and domains
-
+![Domain Data Model](Popug data model.jpg)
 
 
