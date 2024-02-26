@@ -37,4 +37,7 @@
 ## Data model and domains
 ![Domain Data Model](https://github.com/kotbegimot/Popug/blob/main/Popug%20data%20model.jpg)
 
+## Services scheme
+![Services scheme](Services_scheme.jpg)
+
 
