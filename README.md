@@ -37,13 +37,13 @@
 | Account.Logined (Admin) | Show the most expensive completed task per day | Task | - |
 | Account.Logined (Admin) | Show amount of developers with negative balance per day | Digit | - |
 
-### Data model and domains
+## Data model and domains
 ![Domain Data Model](Popug_data_model.jpg)
 
-### Services scheme
+## Services scheme
 ![Services scheme](Services_scheme.jpg)
 
-### CUD Events
+## CUD Events
 | Event Name | Producer | Consumer |
 | --- | --- | --- |
 | AccountLogined | Auth | TaskTracker, Account, Audit |
