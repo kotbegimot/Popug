@@ -1,5 +1,8 @@
 # Popug
 
+## Event storming
+![Event storming](Event_storming.jpg)
+
 ## Requirements
 
 ### Auth Domain
@@ -8,7 +11,7 @@
 | User | Login to any app | Account public ID | Account.Logined |
 | User | Create account | User info | Account.Created |
 
-### Auth Domain
+### Task Tracker Domain
 | Actor | Command | Data | Event |
 | --- | --- | --- | --- |
 | Account (any) | Create Task | Task | Tasks.Created |
@@ -34,10 +37,10 @@
 | Account.Logined (Admin) | Show the most expensive completed task per day | Task | - |
 | Account.Logined (Admin) | Show amount of developers with negative balance per day | Digit | - |
 
-## Data model and domains
-![Domain Data Model](https://github.com/kotbegimot/Popug/blob/main/Popug%20data%20model.jpg)
+### Data model and domains
+![Domain Data Model](Popug_data_model.jpg)
 
-## Services scheme
+### Services scheme
 ![Services scheme](Services_scheme.jpg)
 
 ### CUD Events
