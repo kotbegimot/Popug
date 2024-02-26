@@ -40,4 +40,16 @@
 ## Services scheme
 ![Services scheme](Services_scheme.jpg)
 
-
+### CUD Events
+| Event Name | Producer | Consumer |
+| --- | --- | --- |
+| AccountLogined | Auth | TaskTracker, Account, Audit |
+| AccountCreated | Auth | TaskTracker, Account, Audit |
+| AccountRoleChanged | Auth | TaskTracker, Account, Audit |
+| TaskCreated | TaskTracker | Account, Audit |
+| TaskAssigned | TaskTracker | Account, Audit |
+| TaskCompleted | TaskTracker | Account, Audit |
+| BalanceCharged | Account | Audit |
+| BalanceRepaid | Account | Audit |
+| BalanceTotaled | Account | Audit |
+| BalanceCleared | Account | Audit |
